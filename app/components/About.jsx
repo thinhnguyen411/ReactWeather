@@ -1,4 +1,4 @@
-var React =require('react');
+var React = require('react');
 
 // var About = React.createClass({
 //   render: function () {
@@ -9,12 +9,12 @@ var React =require('react');
 // });
 
 var About = (props) => {
-  return (
-  <div>
-    <h3>About</h3>
-    <p>Welcome to the about page.</p>
-  </div>
-  )
+    return (
+        <div>
+            <h3>About</h3>
+            <p>Welcome to the about page.</p>
+        </div>
+    )
 };
 
-module.exports= About;
+module.exports = About;
